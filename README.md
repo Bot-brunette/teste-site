@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <img src="img/logo.png" alt="Logo Starbucks">
+
+    <div class="circulo"></div>
+
+    <div class="conteudo">
+
+        <div class="texto">
+            <h1>It's not just Coffee<br>It's <span>Starbucks</span></h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <button>Clique</button>
+        </div>
+
+        <div class="imagem">
+            <img class="Copo" src="img/img1.png" alt="Copo Starbucks">
+        </div>
+
+    </div>
+
+    <div class="menu">
+        <img class="botao-menu" src="img/thumb1.png" onclick="trocarimagem('img/img1.png')">
+        <img class="botao-menu" src="img/thumb2.png" onclick="trocarimagem('img/img2.png')">
+        <img class="botao-menu" src="img/thumb3.png" onclick="trocarimagem('img/img3.png')">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
